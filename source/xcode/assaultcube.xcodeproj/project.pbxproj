@@ -28,12 +28,16 @@
 		665CDD180AFE7ED80030D605 /* botmanager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 665CDCE60AFE7ED80030D605 /* botmanager.cpp */; };
 		66899E700C1485E200927C34 /* ConsoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66899E6E0C1485E200927C34 /* ConsoleView.m */; };
 		66899E770C14862300927C34 /* macutils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 66899E760C14862300927C34 /* macutils.mm */; };
+		8C3BDEF52BBE8AAE009B1D73 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEED2BBE8AAE009B1D73 /* libvorbisfile.a */; };
+		8C3BDEF62BBE8AAE009B1D73 /* libvorbis.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEEE2BBE8AAE009B1D73 /* libvorbis.0.dylib */; };
+		8C3BDEF72BBE8AAE009B1D73 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEEF2BBE8AAE009B1D73 /* libvorbis.a */; };
+		8C3BDEF82BBE8AAE009B1D73 /* libvorbisenc.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEF02BBE8AAE009B1D73 /* libvorbisenc.2.dylib */; };
+		8C3BDEF92BBE8AAE009B1D73 /* libogg.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEF12BBE8AAE009B1D73 /* libogg.0.dylib */; };
+		8C3BDEFA2BBE8AAE009B1D73 /* libogg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEF22BBE8AAE009B1D73 /* libogg.a */; };
+		8C3BDEFB2BBE8AAE009B1D73 /* libvorbisenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEF32BBE8AAE009B1D73 /* libvorbisenc.a */; };
+		8C3BDEFC2BBE8AAE009B1D73 /* libvorbisfile.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3BDEF42BBE8AAE009B1D73 /* libvorbisfile.3.dylib */; };
 		9E595539121EA8E9005ED5F7 /* crypto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E595536121EA8E9005ED5F7 /* crypto.cpp */; };
 		9EAE4C10120F2F370041E6E4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EAE4BD8120F2D0A0041E6E4 /* Localizable.strings */; };
-		9EB8171C11ED9AEF00799589 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB8171411ED9AEF00799589 /* Ogg.framework */; };
-		9EB8172111ED9AEF00799589 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB8171911ED9AEF00799589 /* Vorbis.framework */; };
-		9EB8179511ED9EDF00799589 /* Ogg.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EB8171411ED9AEF00799589 /* Ogg.framework */; };
-		9EB8179A11ED9EDF00799589 /* Vorbis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EB8171911ED9AEF00799589 /* Vorbis.framework */; };
 		9EB8181D11EDA56D00799589 /* assaultcube.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9EB817DE11EDA3A300799589 /* assaultcube.icns */; };
 		9EB8188511EDACDB00799589 /* assaultcube.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9EB817DE11EDA3A300799589 /* assaultcube.icns */; };
 		9EB8188611EDACDB00799589 /* Help.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 66899EA80C14887F00927C34 /* Help.tiff */; };
@@ -114,8 +118,6 @@
 			files = (
 				4F9390711A15985A0049877C /* SDL2_image.framework in CopyFiles */,
 				4FEAF3391A147FAE00B42D47 /* SDL2.framework in CopyFiles */,
-				9EB8179511ED9EDF00799589 /* Ogg.framework in CopyFiles */,
-				9EB8179A11ED9EDF00799589 /* Vorbis.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,13 +154,19 @@
 		66899EA90C14887F00927C34 /* Keys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Keys.gif; sourceTree = "<group>"; };
 		66899EAA0C14887F00927C34 /* Main.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Main.gif; sourceTree = "<group>"; };
 		66899EAB0C14887F00927C34 /* Server.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Server.gif; sourceTree = "<group>"; };
+		8C3BDEED2BBE8AAE009B1D73 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = ../../../../../../opt/local/lib/libvorbisfile.a; sourceTree = "<group>"; };
+		8C3BDEEE2BBE8AAE009B1D73 /* libvorbis.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbis.0.dylib; path = ../../../../../../opt/local/lib/libvorbis.0.dylib; sourceTree = "<group>"; };
+		8C3BDEEF2BBE8AAE009B1D73 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = ../../../../../../opt/local/lib/libvorbis.a; sourceTree = "<group>"; };
+		8C3BDEF02BBE8AAE009B1D73 /* libvorbisenc.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbisenc.2.dylib; path = ../../../../../../opt/local/lib/libvorbisenc.2.dylib; sourceTree = "<group>"; };
+		8C3BDEF12BBE8AAE009B1D73 /* libogg.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libogg.0.dylib; path = ../../../../../../opt/local/lib/libogg.0.dylib; sourceTree = "<group>"; };
+		8C3BDEF22BBE8AAE009B1D73 /* libogg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libogg.a; path = ../../../../../../opt/local/lib/libogg.a; sourceTree = "<group>"; };
+		8C3BDEF32BBE8AAE009B1D73 /* libvorbisenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisenc.a; path = ../../../../../../opt/local/lib/libvorbisenc.a; sourceTree = "<group>"; };
+		8C3BDEF42BBE8AAE009B1D73 /* libvorbisfile.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvorbisfile.3.dylib; path = ../../../../../../opt/local/lib/libvorbisfile.3.dylib; sourceTree = "<group>"; };
 		9E595536121EA8E9005ED5F7 /* crypto.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crypto.cpp; sourceTree = "<group>"; };
 		9E595538121EA8E9005ED5F7 /* crypto_tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto_tools.h; sourceTree = "<group>"; };
 		9EAE4BD9120F2D0A0041E6E4 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
-		9EB8171411ED9AEF00799589 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		9EB8171511ED9AEF00799589 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		9EB8171611ED9AEF00799589 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
-		9EB8171911ED9AEF00799589 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		9EB817DE11EDA3A300799589 /* assaultcube.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = assaultcube.icns; sourceTree = "<group>"; };
 		9EB8183711EDA6EE00799589 /* assaultcube.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = assaultcube.plist; sourceTree = "<group>"; };
 		9EB8183811EDA6EE00799589 /* launcher.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = launcher.plist; sourceTree = "<group>"; };
@@ -253,13 +261,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C3BDEF52BBE8AAE009B1D73 /* libvorbisfile.a in Frameworks */,
+				8C3BDEF62BBE8AAE009B1D73 /* libvorbis.0.dylib in Frameworks */,
+				8C3BDEF72BBE8AAE009B1D73 /* libvorbis.a in Frameworks */,
+				8C3BDEF82BBE8AAE009B1D73 /* libvorbisenc.2.dylib in Frameworks */,
+				8C3BDEF92BBE8AAE009B1D73 /* libogg.0.dylib in Frameworks */,
+				8C3BDEFA2BBE8AAE009B1D73 /* libogg.a in Frameworks */,
+				8C3BDEFB2BBE8AAE009B1D73 /* libvorbisenc.a in Frameworks */,
+				8C3BDEFC2BBE8AAE009B1D73 /* libvorbisfile.3.dylib in Frameworks */,
 				4F93906E1A1598140049877C /* SDL2_image.framework in Frameworks */,
 				B94198C309207E810029DAD1 /* Cocoa.framework in Frameworks */,
 				4FEAF3381A147F9F00B42D47 /* SDL2.framework in Frameworks */,
 				B9FA3B7D0DD9E6E400581F8D /* OpenAL.framework in Frameworks */,
 				B94198C409207E810029DAD1 /* OpenGL.framework in Frameworks */,
-				9EB8171C11ED9AEF00799589 /* Ogg.framework in Frameworks */,
-				9EB8172111ED9AEF00799589 /* Vorbis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,8 +303,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9EB8171411ED9AEF00799589 /* Ogg.framework */,
-				9EB8171911ED9AEF00799589 /* Vorbis.framework */,
 				9EB8171511ED9AEF00799589 /* SDL2.framework */,
 				9EB8171611ED9AEF00799589 /* SDL2_image.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
@@ -360,6 +372,14 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C3BDEF12BBE8AAE009B1D73 /* libogg.0.dylib */,
+				8C3BDEF22BBE8AAE009B1D73 /* libogg.a */,
+				8C3BDEEE2BBE8AAE009B1D73 /* libvorbis.0.dylib */,
+				8C3BDEEF2BBE8AAE009B1D73 /* libvorbis.a */,
+				8C3BDEF02BBE8AAE009B1D73 /* libvorbisenc.2.dylib */,
+				8C3BDEF32BBE8AAE009B1D73 /* libvorbisenc.a */,
+				8C3BDEF42BBE8AAE009B1D73 /* libvorbisfile.3.dylib */,
+				8C3BDEED2BBE8AAE009B1D73 /* libvorbisfile.a */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
@@ -747,12 +767,14 @@
 				HEADER_SEARCH_PATHS = (
 					../enet/include,
 					../include/,
+					/opt/local/include,
 				);
 				INFOPLIST_FILE = assaultcube.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../lib\"",
+					/opt/local/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -791,12 +813,14 @@
 				HEADER_SEARCH_PATHS = (
 					../enet/include,
 					../include/,
+					/opt/local/include,
 				);
 				INFOPLIST_FILE = assaultcube.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../lib\"",
+					/opt/local/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
@@ -840,12 +864,14 @@
 				HEADER_SEARCH_PATHS = (
 					../enet/include,
 					../include/,
+					/opt/local/include,
 				);
 				INFOPLIST_FILE = assaultcube.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../lib\"",
+					/opt/local/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				OTHER_CODE_SIGN_FLAGS = "--deep";

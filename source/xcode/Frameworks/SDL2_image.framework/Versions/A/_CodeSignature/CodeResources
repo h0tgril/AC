@@ -4,42 +4,63 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/CMake/sdl2_image-config-version.cmake</key>
+		<data>
+		xG62wWC3H2+OFeXJ8R+6Aqi7dBM=
+		</data>
+		<key>Resources/CMake/sdl2_image-config.cmake</key>
+		<data>
+		f8cX1yxPY3KVqq4ehepvhsT8f/8=
+		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		OaZ9V93BVxnokXk3eGvZq0O+ALY=
+		mS8M43mSOZamN4EBHbdhATWbtsY=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/webp.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			aLxguvOcyoa3hONDo7n0vLw7Dms=
-			</data>
-			<key>requirement</key>
-			<string>identifier webp and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EH385AYQ6F</string>
-		</dict>
 		<key>Headers/SDL_image.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lkMu2Af1abENvUBa9+/fL4cvxFs=
+			3OJTGPSwbHlfMJW5vWfC8bvcsco=
 			</data>
 			<key>hash2</key>
 			<data>
-			dTgb+bxTE5euz5lf0wbj0hZNIGNprDOkP77zJKSJqkw=
+			LhyHgLA26XAPzmjIUekH1iAP0YigFzBFymR/tMiIESs=
+			</data>
+		</dict>
+		<key>Resources/CMake/sdl2_image-config-version.cmake</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xG62wWC3H2+OFeXJ8R+6Aqi7dBM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7jQHs2/XseQmO5EFN8xG+aK1OauATc1R/1O5tNVhqy8=
+			</data>
+		</dict>
+		<key>Resources/CMake/sdl2_image-config.cmake</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f8cX1yxPY3KVqq4ehepvhsT8f/8=
+			</data>
+			<key>hash2</key>
+			<data>
+			D3IYrP/6kkLybWtCtWA0Yv5S541ByqEbadPQgGaEP2o=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OaZ9V93BVxnokXk3eGvZq0O+ALY=
+			mS8M43mSOZamN4EBHbdhATWbtsY=
 			</data>
 			<key>hash2</key>
 			<data>
-			mPON4LZKxH9KW7WVE/ZkaFRHMUIQKWiK1wFaUV3nxFU=
+			D7UiFOZmdJTPW4Xy3Oxgm9280x5+Ex/X7RZErSHPMpU=
 			</data>
 		</dict>
 	</dict>
